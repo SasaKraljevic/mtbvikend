@@ -1,0 +1,71 @@
+body {
+	background: #0d0d0d;
+}
+
+#topOffset {
+	background: #1a1a1a;
+	height: 35px;
+	width: 100%;
+	border-bottom: 1px solid #a6a6a6;
+}
+
+.navbar {
+	margin-top: 40px;
+}
+.navbar-brand {
+  font-family: 'Satisfy', cursive;
+}
+
+.carousel-inner {
+	border-radius: 3px 3px 0px 0px;
+}
+
+.carousel-caption {
+	background: rgba(13,13,13,0.6);
+	right: 15px;
+	left: 60%;
+}
+
+h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.postName {
+  color: #428bca;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+
+hr {
+	color: #b3b3ff;
+	width: 80%;
+}
+.container-fluid {
+	background: #f2f2f2;
+	margin-top: 10px;
+}
+
+.img-rounded {
+  width: 100%;
+  height: 230px;
+}
+.img-rounded:hover {
+  opacity: 0.9;
+}
+
+.row {
+  padding-bottom: 20px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  margin-top: 10px;
+  border-radius: 5px;
+}
