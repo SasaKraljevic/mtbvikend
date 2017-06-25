@@ -1,10 +1,14 @@
 {% extends 'blog/base.html' %}
-{% block title %}Album Details{% endblock %}
+<!--{% block title %}Album Details{% endblock %}-->
 
-{% block body %}
+{% block post_detail %}
     <img src="{{ post.photo.url }}" alt="" style="width: 250px;">
 
     <h1>{{ post.title }}</h1>
+    <div class="">
+      <span>{{ post.author }} | </span><span>{{ post.created_date }} | </span>
+    </div> <br>
+    <p>{{ post.text }}</p>
     <!--
     <ul>
       {% for song in album.song_set.all %}
